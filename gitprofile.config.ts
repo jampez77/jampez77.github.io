@@ -31,13 +31,21 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jampez77/gitprofile'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
+        {
+          title: 'Claude',
+          description:
+            'Claude is a dedicated app for patients with intermittent claudication. It has been designed to support improvement in your pain-free walking distance giving you greater freedom and independence. It can also be used to accurately record your progress to share with your healthcare specialist.',
+          imageUrl:
+            'https://github.com/jampez77/jampez77.github.io/blob/main/public/assets/claude.png',
+          link: 'https://play.google.com/store/apps/details?id=uk.co.jampez.claude',
+        }
       ],
     },
   },
@@ -49,7 +57,7 @@ const CONFIG = {
   social: {
     linkedin: 'jampez77',
     twitter: 'jampez77',
-    mastodon: 'jampez77@mastodon.uk',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
