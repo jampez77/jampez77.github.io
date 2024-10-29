@@ -35,7 +35,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Other Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -43,8 +43,16 @@ const CONFIG = {
           description:
             'Claude is a dedicated app for patients with intermittent claudication. It has been designed to support improvement in your pain-free walking distance giving you greater freedom and independence. It can also be used to accurately record your progress to share with your healthcare specialist.',
           imageUrl:
-            'https://github.com/jampez77/jampez77.github.io/blob/main/public/assets/claude.png',
+            'https://raw.githubusercontent.com/jampez77/jampez77.github.io/refs/heads/main/public/assets/claude.png',
           link: 'https://play.google.com/store/apps/details?id=uk.co.jampez.claude',
+        },
+        {
+          title: 'ePIC SWP',
+          description:
+            'ePIC is the fully native successor to the eCOSS app series. It offers one app that allows Railway workers to receive Safe Work Packs from the On-Trac desktop SWP application and allows the PIC to view, edit, manage and electronically sign packs on your Android device using the forms and processes described in the NEW Network Rail 019 Version 9 standard.',
+          imageUrl:
+            'https://raw.githubusercontent.com/jampez77/jampez77.github.io/refs/heads/main/public/assets/epic_swp.png',
+          link: 'https://play.google.com/store/apps/details?id=uk.co.ontrac.ecoss',
         }
       ],
     },
