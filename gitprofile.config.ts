@@ -85,7 +85,7 @@ const CONFIG = {
     email: 'me@jampez.uk',
   },
   resume: {
-    fileUrl: '',
+    fileUrl: 'https://github.com/jampez77/jampez77.github.io/blob/main/resume.pdf',
   },
   skills: [
     'IoT',
