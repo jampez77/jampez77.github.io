@@ -64,7 +64,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'jampez77',
-    twitter: 'jampez77',
+    twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -101,14 +101,21 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'hedgehog lab',
+      position: 'Senior Mobile Engineer',
+      from: 'Jan 2025',
+      to: 'Present',
+      companyLink: 'https://hedgehoglab.com',
+    },
+    {
       company: 'We3World',
       position: 'Senior Android Developer',
       from: 'Jan 2024',
-      to: 'Present',
+      to: 'Dec 2024',
       companyLink: 'https://artlume.io',
     },
     {
-      company: 'Hedgehog Lab',
+      company: 'hedgehog Lab',
       position: 'Android Developer',
       from: 'Feb 2020',
       to: 'Jan 2024',
